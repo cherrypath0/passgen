@@ -102,10 +102,6 @@ The tool will prompt for confirmation when:
 - More than 2 exclusion flags are used together
 - A custom character set has fewer than 16 unique characters
 
-```
-Security Warning: One or more of these settings could potentially generate weak passwords, are you sure you want to continue? [y/N]:
-```
-
 ## How It Works
 
 - **Entropy source**: Platform-native cryptographically secure random number generators
@@ -120,29 +116,6 @@ Security Warning: One or more of these settings could potentially generate weak 
 | macOS | `/dev/urandom` | Same interface as Linux |
 | Windows | `CryptGenRandom` | Windows CryptoAPI |
 
-## Building for All Platforms
-
-### Using CMake
-
-Create a build directory and compile:
-
-```bash
-mkdir build && cd build
-cmake .. && cmake --build . --config Release
-```
-
-### Cross-Compilation
-
-See the [compilation guide](#compilation) for cross-compiling from one OS to another.
-
-### GitHub Actions
-
-A sample workflow is included to automatically build binaries for Linux, macOS, and Windows on every push.
-
-## Version
-
-Current version: **1.0.0**
-
 ## License
 
-This project is released into the public domain. Use it, modify it, distribute it — no attribution required.
+This project is licensed under the MIT License, see the [license text](./LICENSE)
