@@ -1,0 +1,4 @@
+passgen
+*.sh
+*.bat
+build/
