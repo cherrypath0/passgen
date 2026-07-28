@@ -118,4 +118,4 @@ The tool will prompt for confirmation when:
 
 ## License
 
-This project is licensed under the MIT License, see the [license text](./LICENSE)
+This project is licensed under the MIT License, see the full license text by [clicking here](./LICENSE).
